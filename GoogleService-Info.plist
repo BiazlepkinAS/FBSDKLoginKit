@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>727212256241-ioq6n2avtrtmc256boateloljbnhs9ev.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.727212256241-ioq6n2avtrtmc256boateloljbnhs9ev</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfS4moRMly844SYVCVyVTiTd25vyzw9-Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>727212256241</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.macbookpro.QulixApp</string>
+	<key>PROJECT_ID</key>
+	<string>qulixapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>qulixapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:727212256241:ios:066933aba151afcfd2f250</string>
+	<key>DATABASE_URL</key>
+	<string>https://qulixapp.firebaseio.com</string>
+</dict>
+</plist>

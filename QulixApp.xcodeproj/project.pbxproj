@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD623F66FA63EE32F16DE24 /* Pods_QulixApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09FF702B3516A31B395E742 /* Pods_QulixApp.framework */; };
+		FA18B39F2540C5C300D404E6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18B39E2540C5C200D404E6 /* TabBarController.swift */; };
+		FA18B3A12540C63C00D404E6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18B3A02540C63C00D404E6 /* SettingsViewController.swift */; };
+		FA18B3A32540C65400D404E6 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18B3A22540C65400D404E6 /* TimeLineViewController.swift */; };
+		FA18B3A92542218F00D404E6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18B3A82542218F00D404E6 /* HeaderView.xib */; };
+		FA18B3AB254221B700D404E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18B3AA254221B700D404E6 /* HeaderView.swift */; };
+		FA18B3AD254226F100D404E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA18B3AC254226F100D404E6 /* GoogleService-Info.plist */; };
+		FA5FB4072545F90500455895 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FB4062545F90500455895 /* LogInViewController.swift */; };
+		FAB37B6F254231AE00F47C47 /* APImanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB37B6E254231AE00F47C47 /* APImanager.swift */; };
+		FAB37B71254239CE00F47C47 /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB37B70254239CE00F47C47 /* TimeLineTableViewCell.swift */; };
+		FAFE297C2540B6CD00CD3C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE297B2540B6CD00CD3C3C /* AppDelegate.swift */; };
+		FAFE297E2540B6CD00CD3C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE297D2540B6CD00CD3C3C /* SceneDelegate.swift */; };
+		FAFE29802540B6CD00CD3C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE297F2540B6CD00CD3C3C /* ViewController.swift */; };
+		FAFE29832540B6CD00CD3C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFE29812540B6CD00CD3C3C /* Main.storyboard */; };
+		FAFE29852540B6CF00CD3C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFE29842540B6CF00CD3C3C /* Assets.xcassets */; };
+		FAFE29882540B6CF00CD3C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFE29862540B6CF00CD3C3C /* LaunchScreen.storyboard */; };
+		FAFE29902540B73B00CD3C3C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE298F2540B73B00CD3C3C /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B39350678D6EDC116B23EA1 /* Pods-QulixApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QulixApp.release.xcconfig"; path = "Target Support Files/Pods-QulixApp/Pods-QulixApp.release.xcconfig"; sourceTree = "<group>"; };
+		82896256A9D83BF98B57CD70 /* Pods-QulixApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QulixApp.debug.xcconfig"; path = "Target Support Files/Pods-QulixApp/Pods-QulixApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E09FF702B3516A31B395E742 /* Pods_QulixApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QulixApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA18B39E2540C5C200D404E6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA18B3A02540C63C00D404E6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FA18B3A22540C65400D404E6 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		FA18B3A82542218F00D404E6 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		FA18B3AA254221B700D404E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA18B3AC254226F100D404E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA5FB4062545F90500455895 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		FAB37B6E254231AE00F47C47 /* APImanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APImanager.swift; sourceTree = "<group>"; };
+		FAB37B70254239CE00F47C47 /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
+		FAFE29782540B6CD00CD3C3C /* QulixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QulixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFE297B2540B6CD00CD3C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFE297D2540B6CD00CD3C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAFE297F2540B6CD00CD3C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFE29822540B6CD00CD3C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFE29842540B6CF00CD3C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFE29872540B6CF00CD3C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFE29892540B6CF00CD3C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFE298F2540B73B00CD3C3C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFE29752540B6CD00CD3C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD623F66FA63EE32F16DE24 /* Pods_QulixApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B6F92730EC0E368CF2EA53D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82896256A9D83BF98B57CD70 /* Pods-QulixApp.debug.xcconfig */,
+				3B39350678D6EDC116B23EA1 /* Pods-QulixApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC6607CB53DD15A2B9C0DE25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E09FF702B3516A31B395E742 /* Pods_QulixApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA18B3A42540C66500D404E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAFE297F2540B6CD00CD3C3C /* ViewController.swift */,
+				FAFE298F2540B73B00CD3C3C /* StartViewController.swift */,
+				FA5FB4062545F90500455895 /* LogInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA18B3A525421ABF00D404E6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA18B3A82542218F00D404E6 /* HeaderView.xib */,
+				FA18B3AA254221B700D404E6 /* HeaderView.swift */,
+				FA18B3A725421E5000D404E6 /* Settings */,
+				FA18B3A625421E3400D404E6 /* timeLine */,
+				FA18B39E2540C5C200D404E6 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FA18B3A625421E3400D404E6 /* timeLine */ = {
+			isa = PBXGroup;
+			children = (
+				FA18B3A22540C65400D404E6 /* TimeLineViewController.swift */,
+				FAB37B70254239CE00F47C47 /* TimeLineTableViewCell.swift */,
+			);
+			path = timeLine;
+			sourceTree = "<group>";
+		};
+		FA18B3A725421E5000D404E6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FA18B3A02540C63C00D404E6 /* SettingsViewController.swift */,
+				FAB37B6E254231AE00F47C47 /* APImanager.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FAFE296F2540B6CD00CD3C3C = {
+			isa = PBXGroup;
+			children = (
+				FAFE297A2540B6CD00CD3C3C /* QulixApp */,
+				FAFE29792540B6CD00CD3C3C /* Products */,
+				6B6F92730EC0E368CF2EA53D /* Pods */,
+				BC6607CB53DD15A2B9C0DE25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFE29792540B6CD00CD3C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFE29782540B6CD00CD3C3C /* QulixApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFE297A2540B6CD00CD3C3C /* QulixApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA18B3AC254226F100D404E6 /* GoogleService-Info.plist */,
+				FA18B3A525421ABF00D404E6 /* TabBar */,
+				FA18B3A42540C66500D404E6 /* Controllers */,
+				FAFE297B2540B6CD00CD3C3C /* AppDelegate.swift */,
+				FAFE297D2540B6CD00CD3C3C /* SceneDelegate.swift */,
+				FAFE29842540B6CF00CD3C3C /* Assets.xcassets */,
+				FAFE29862540B6CF00CD3C3C /* LaunchScreen.storyboard */,
+				FAFE29892540B6CF00CD3C3C /* Info.plist */,
+				FAFE29812540B6CD00CD3C3C /* Main.storyboard */,
+			);
+			path = QulixApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFE29772540B6CD00CD3C3C /* QulixApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFE298C2540B6CF00CD3C3C /* Build configuration list for PBXNativeTarget "QulixApp" */;
+			buildPhases = (
+				E74D57583D657FB8C64C7E62 /* [CP] Check Pods Manifest.lock */,
+				FAFE29742540B6CD00CD3C3C /* Sources */,
+				FAFE29752540B6CD00CD3C3C /* Frameworks */,
+				FAFE29762540B6CD00CD3C3C /* Resources */,
+				33659DFABA643BE0F8284E71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QulixApp;
+			productName = QulixApp;
+			productReference = FAFE29782540B6CD00CD3C3C /* QulixApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFE29702540B6CD00CD3C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = macbookPro;
+				TargetAttributes = {
+					FAFE29772540B6CD00CD3C3C = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = FAFE29732540B6CD00CD3C3C /* Build configuration list for PBXProject "QulixApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFE296F2540B6CD00CD3C3C;
+			productRefGroup = FAFE29792540B6CD00CD3C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFE29772540B6CD00CD3C3C /* QulixApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFE29762540B6CD00CD3C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFE29882540B6CF00CD3C3C /* LaunchScreen.storyboard in Resources */,
+				FAFE29852540B6CF00CD3C3C /* Assets.xcassets in Resources */,
+				FA18B3AD254226F100D404E6 /* GoogleService-Info.plist in Resources */,
+				FAFE29832540B6CD00CD3C3C /* Main.storyboard in Resources */,
+				FA18B3A92542218F00D404E6 /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33659DFABA643BE0F8284E71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QulixApp/Pods-QulixApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QulixApp/Pods-QulixApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QulixApp/Pods-QulixApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74D57583D657FB8C64C7E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QulixApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFE29742540B6CD00CD3C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB37B71254239CE00F47C47 /* TimeLineTableViewCell.swift in Sources */,
+				FA18B3A32540C65400D404E6 /* TimeLineViewController.swift in Sources */,
+				FA5FB4072545F90500455895 /* LogInViewController.swift in Sources */,
+				FAFE29802540B6CD00CD3C3C /* ViewController.swift in Sources */,
+				FAFE29902540B73B00CD3C3C /* StartViewController.swift in Sources */,
+				FAFE297C2540B6CD00CD3C3C /* AppDelegate.swift in Sources */,
+				FAB37B6F254231AE00F47C47 /* APImanager.swift in Sources */,
+				FA18B39F2540C5C300D404E6 /* TabBarController.swift in Sources */,
+				FAFE297E2540B6CD00CD3C3C /* SceneDelegate.swift in Sources */,
+				FA18B3A12540C63C00D404E6 /* SettingsViewController.swift in Sources */,
+				FA18B3AB254221B700D404E6 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAFE29812540B6CD00CD3C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFE29822540B6CD00CD3C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFE29862540B6CF00CD3C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFE29872540B6CF00CD3C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFE298A2540B6CF00CD3C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFE298B2540B6CF00CD3C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFE298D2540B6CF00CD3C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82896256A9D83BF98B57CD70 /* Pods-QulixApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9R854R4A6;
+				INFOPLIST_FILE = QulixApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbookpro.QulixApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAFE298E2540B6CF00CD3C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B39350678D6EDC116B23EA1 /* Pods-QulixApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9R854R4A6;
+				INFOPLIST_FILE = QulixApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbookpro.QulixApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFE29732540B6CD00CD3C3C /* Build configuration list for PBXProject "QulixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFE298A2540B6CF00CD3C3C /* Debug */,
+				FAFE298B2540B6CF00CD3C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFE298C2540B6CF00CD3C3C /* Build configuration list for PBXNativeTarget "QulixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFE298D2540B6CF00CD3C3C /* Debug */,
+				FAFE298E2540B6CF00CD3C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFE29702540B6CD00CD3C3C /* Project object */;
+}
