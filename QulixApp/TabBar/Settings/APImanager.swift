@@ -1,4 +1,3 @@
-
 import Foundation
 import UIKit
 import Firebase
@@ -26,7 +25,6 @@ class APImanager {
             })
         }
     }
-    
     func getImage(id: String, completion: @escaping (UIImage) -> Void) {
         let storage = Storage.storage()
         let reference = storage.reference()
@@ -38,10 +36,8 @@ class APImanager {
             guard error == nil else { completion(image); return}
             image = UIImage(data:data!)!
             completion(image)
-            
         })
     }
-    
 }
 struct Post {
     let name: String

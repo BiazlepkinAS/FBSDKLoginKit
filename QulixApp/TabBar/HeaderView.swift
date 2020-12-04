@@ -6,7 +6,6 @@ class HeaderView: UIView {
         let view: HeaderView = initFromnib()
         return view
     }
-
 }
 extension UIView {
     

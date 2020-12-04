@@ -3,7 +3,6 @@ import FBSDKLoginKit
 
 class StartViewController: UIViewController, LoginButtonDelegate {
     
-    
     func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
         let token = result?.token?.tokenString
         let request = FBSDKLoginKit.GraphRequest(graphPath: "me",
@@ -15,11 +14,8 @@ class StartViewController: UIViewController, LoginButtonDelegate {
             print("\(result ?? "none")")
         })
     }
-    
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
-        
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +39,6 @@ class StartViewController: UIViewController, LoginButtonDelegate {
             loginButton.permissions = ["public_profile", "email"]
             view.addSubview(loginButton)
         }
-        
         let appImage:UIImageView = {
             let appImage = UIImageView()
             appImage.image = UIImage(named: "Logo")
@@ -57,7 +52,6 @@ class StartViewController: UIViewController, LoginButtonDelegate {
         appImage.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -200).isActive = true
         appImage.widthAnchor.constraint(equalToConstant: 100).isActive = true
         appImage.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        
         
         let loginButton2:UIView = {
             let button = UIButton()
@@ -76,7 +70,6 @@ class StartViewController: UIViewController, LoginButtonDelegate {
         loginButton2.heightAnchor.constraint(equalToConstant: 40).isActive = true
         loginButton2.widthAnchor.constraint(equalToConstant: 250).isActive = true
         
-        
         let someText:UILabel = {
             let someT = UILabel()
             someT.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0)
@@ -92,8 +85,6 @@ class StartViewController: UIViewController, LoginButtonDelegate {
         someText.widthAnchor.constraint(equalToConstant: 150).isActive = true
         someText.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
-        
-        
         let loginAppleButton:UIButton = {
             let loginAppleB = UIButton()
             
@@ -108,12 +99,10 @@ class StartViewController: UIViewController, LoginButtonDelegate {
             return loginAppleB
         }()
         view.addSubview(loginAppleButton)
-        
         loginAppleButton.bottomAnchor.constraint(equalTo: loginButton2.topAnchor, constant: -160).isActive = true
         loginAppleButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         loginAppleButton.widthAnchor.constraint(equalTo: loginButton2.widthAnchor).isActive = true
         loginAppleButton.heightAnchor.constraint(equalTo: loginButton2.heightAnchor).isActive = true
-        
         
         let signUpButton: UIButton = {
             let signUp = UIButton()
@@ -132,11 +121,8 @@ class StartViewController: UIViewController, LoginButtonDelegate {
         signUpButton.widthAnchor.constraint(equalTo: loginButton2.widthAnchor).isActive = true
         signUpButton.heightAnchor.constraint(equalTo: loginButton2.heightAnchor).isActive = true
         
-        
     }
-    
     @objc func settingsPresent() {
-        
         guard let controller = self.storyboard?.instantiateViewController(withIdentifier: "LogInViewController") as? LogInViewController else {
             return
         }
