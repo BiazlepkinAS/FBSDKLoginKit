@@ -3,9 +3,7 @@ import UIKit
 
 class TimeLineViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
     @IBOutlet weak var tableView: UITableView!
-    
     var posts: [Post] = []
     
     override func viewDidLoad() {
@@ -29,17 +27,13 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
                             }
                         }
                     }
-                    
                 }
-                
             }
-            
         }
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TimeLineTableViewCell
         cell.postNameTitile.text = posts[indexPath.row].name
@@ -50,4 +44,3 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
         return cell
     }
 }
-
